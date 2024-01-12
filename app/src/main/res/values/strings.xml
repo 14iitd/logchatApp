@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">logchatApp</string>
+    <string name="app_name">logchatApp2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="button_log">Description of the action performed by the button</string>
+    <string name="image_one">Description of your image</string>
+    <string name="image_two">image two\n</string>
+    <string name="image_thr">image three\n</string>
+    <string name="logchatApp3">logchat\n</string>
+    <string name="textview">\"Ex laboris adipisicing sint adipisicing irure eu\" #hashtag #hashtag</string>
 </resources>

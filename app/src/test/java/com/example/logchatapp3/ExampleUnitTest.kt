@@ -1,4 +1,4 @@
-package com.example.logchatapp
+package com.example.logchatapp3
 
 import org.junit.Test
 

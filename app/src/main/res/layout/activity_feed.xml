@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- feed_item_layout.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textUserName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:text="User Name" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textPostContent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:textSize="14sp"-->
+<!--        android:text="Post content goes here" />-->
+
+    <!-- You can add more views for like, comment, share buttons, etc. -->
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:contentDescription="@string/image_thr"
+            app:srcCompat="@drawable/ava" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="68dp"
+            android:layout_marginStart="197dp"
+            android:contentDescription="@string/image_thr"
+            app:srcCompat="@drawable/bell" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="77dp"
+            android:layout_height="68dp"
+            android:contentDescription="@string/image_thr"
+            app:srcCompat="@drawable/se" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/rv_item"
+        android:layout_height="553dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ButtonImage3"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:contentDescription="@string/button_log"
+            app:srcCompat="@drawable/house" />
+
+        <ImageButton
+            android:id="@+id/buttonImage4"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:contentDescription="@string/button_log"
+            app:srcCompat="@drawable/plus" />
+
+        <ImageButton
+            android:id="@+id/buttonImage5"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="3"
+            android:background="@color/white"
+            android:contentDescription="@string/button_log"
+            app:srcCompat="@drawable/image_two" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
